@@ -1,0 +1,18 @@
+#Git는 파일을 업로드하면서 나의 발전 과정을 낱낱이 공개할 수 있는 성장 blog
+#Working Directory: 내가 컴퓨터로 파일 안에서 활동하는 공간
+#Staging Area: Git에 업로드 하기 전 준비 단계
+
+#Local Repository: Local Disk로서 mlp-from-scratch 폴더는 현재 로컬디스크-사용자-user 내에 위치하므로,
+#프롬프트에서 기본값이 "C:\Users\user\mlp-from-scratch>"로 표현되는 것
+
+#Remote Repository(Github): Local과는 달리 인터넷에 업로드되어 공유될 수 있는 저장소
+
+
+#파일 생성
+#1. 파일을 생성할 폴더 지정 "cd mlp-from-scratch"
+#2. 이미 있는 Git Repo를 재실행 "Git init"
+#3. 파일 생성 'touch "How to Use GIt"'
+#4. 파일 변경 후 저장
+#5. Staging Area에 업로드 "Git add ."
+#6. 업로드 되었는지 확인 "Git Status"
+#7. Remote Repository에 어떤 변경사항이 추가되었는지 요약해서 올리기 "Git commit -m 'Day2 Github 기본 사용법 인지'"
