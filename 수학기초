@@ -1,1 +1,9 @@
 #Linear Algebra
+#Vector: Think of it as an arrow rooted in the origin
+#Vector is a flow of movements, so sum of vectors are done with same components such as x or y
+#So, multiplying number to a vector is done with each components of a vector such as x or y
+
+#Scaling is multiplying number with vector. Basically number lengthens or shortens vectors.
+
+##Day 2
+#
