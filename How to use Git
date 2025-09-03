@@ -28,10 +28,10 @@
 #8. main으로 local repository 이름 설정 "git branch -M main"
 #git branch를 먼저 실행하는 이유: 앞으로 Local Repository에 저장될 파일들의 브랜치 이름을 통일하기 위해서
 
-#9. Remote Repository와 Local Repository 연결/ Remote Repository에 'origin'이라는 별칭 부여
+#9. git remote: 원격저장소와 관련된 작업을 진행한다./ add 이름 <URL>: URL에 새로운 원격저장소를 추가하는데, 이름이 "이름"인 것
 # "git remote add origin https://github.com/hyeonhan-coder/mlp-from-scratch"
 
 #10. 업로드 "git push -u 원격저장소 이름 로컬저장소 이름"
+#-u는 로컬브랜치가 원격 브랜치를 추적하도록 설정
 
 #-m, -M, -u는 각각 어떤 것인가 -m은 message 남긴다는 것, -M은 기존 브랜치 이름이 정해지지 않았다면 설정, 있더라도 변경
-#-u는 로컬브랜치가 원격 브랜치를 추적하도록 설정
