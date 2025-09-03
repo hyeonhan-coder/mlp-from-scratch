@@ -28,9 +28,32 @@ print(a,b)
 #문자열 길이 len(a)
 #문자열 곱, 더하기 "a"*2=aa, "a"+" b"="a b"
 
+
 #문자열 인덱싱과 슬라이싱
 #a="life is short so we need to learn python"
 #인덱싱: a[0]="l"/ 슬라이싱: a[0:5]="life" 즉, 0<=a<5이다.
 #a[2:]="fe is short so we need to learn python"
 #a[:4]="life "
 
+
+#문자열 포맷팅이란(%d, %s)
+#문자열 중, 특정 부분만을 비워놓고, 내가 원하는 것으로 채우고 싶을 때
+#a="Nowadays, the weather is %s crazy. It is about %ddegree celsius%%"%("becoming",-30)
+#print(a)
+#Nowadays, the weather is becoming crazy. It is about -30degree celsius%
+
+#전체 길이 n(n>0)인 공간, 정렬
+#%ns: %부터 n개의 공간을 나열한 후, 대입되는 요소를 가장 오른쪽에 정렬
+#%-ns: %부터 n개의 공간을 나열한 후, 대입되는 요소를 가장 왼쪽에 정렬
+#a="My name is %-6s."%"Hyeon"
+#print(a)
+#My name is Hyeon .
+
+#.format함수 사용해서 정렬
+#a="Hello my name is {0} and his name is {1}. Our age is {age}".format("Hyeon","Han",age=23)
+#print(a)
+#Hello my name is Hyeon and his name is Han. Our age is 23
+
+#a="Hello my name is {0:>10}.".format("Hyeon")
+#print(a)
+#(만약, 빈칸을 채우고 싶다면, {0:=>10}이렇게 작성하면 나머지 공간이 "="로 채워진다)
