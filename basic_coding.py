@@ -3,8 +3,8 @@
 
 
 #1) 숫자형: 정수 1,2,3, 실수 1.2, 2.34, 지수표현 방식 4.24e10
-a=4.24e10
-print(a)
+#a=4.24e10
+#print(a)
 
 #숫자형 연산자
 #"a+=1": a=a+1/ "a*=1": a=a*1
@@ -15,9 +15,9 @@ print(a)
 
 #따옴표를 포함시키려면, \' 혹은 작은 따옴표는 큰 따옴표로, 큰 따옴표는 작은 따옴표로 묶기
 #자료형을 정의할 때, 각각 다른 줄에 지정하자. ","로 연결할 수 없다 ex) a="", b=""(X)
-a='"hello bro" He said'
-b='\"hello bro\" He said'
-print(a,b)
+#a='"hello bro" He said'
+#b='\"hello bro\" He said'
+#print(a,b)
 
 #여러 줄의 문자열을 정의하고 싶다면?
 #a='''"I know" 첫째줄
@@ -49,6 +49,7 @@ print(a,b)
 #print(a)
 #My name is Hyeon .
 
+
 #.format함수 사용해서 정렬
 #a="Hello my name is {0} and his name is {1}. Our age is {age}".format("Hyeon","Han",age=23)
 #print(a)
@@ -57,3 +58,20 @@ print(a,b)
 #a="Hello my name is {0:>10}.".format("Hyeon")
 #print(a)
 #(만약, 빈칸을 채우고 싶다면, {0:=>10}이렇게 작성하면 나머지 공간이 "="로 채워진다)
+
+# a=3.23245223 #format함수 이용해서 소수점 뽑기.
+# "{0:0.4f}".format(a) #중요한건 "{}"안의 {}는 변경하고 싶은 특정 부분이고, 거기서 0:0.4f로 슬라이싱한 건 소수점 4자리까지 반올림해서 구한다는것
+
+# "Hello my name is {0}, and my height is {1}".format("hyeon",180)
+
+# a=3.234214423
+# "{0:0.3}".format(a) #0.3f가 아닌 0.3으로 지정하면 0.3은 포함이 안되기때문에 3.23까지만 출력
+
+
+# name="hyeon" #f문자열 포맷팅
+# age=23
+
+# print(f'my name is {name}, and my age is {age}')
+
+# age=23 #f문자열 포맷팅은 "표현식 제공"
+# print(f'my age is {age*23}') #표현식이란 중괄호 안의 변수 age를 *과 같은 연산자와 함께 사용하는 것
